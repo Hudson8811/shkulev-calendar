@@ -241,13 +241,6 @@ function renderCards(eventsData) {
     cardsShowMoreBtn.innerHTML = showMoreBtnTemp;
     cardsShowMoreBtn.addEventListener('click', cardsShowMore)
 
-    //определяем текущий месяц
-    const date = new Date();
-    const monthNow = date.getMonth() + 1;
-
-    // проверяем есть ли текущий месяц в выборке
-    const hasMonthNow = eventsData.find(item => monthsNumbers[item.month.toLowerCase().trim()] == monthNow) !== undefined ? true : false
-
     // первый год
     let currentYear = eventsData[0].year;
     let yearBlock = document.createElement('div')
@@ -280,17 +273,9 @@ function renderCards(eventsData) {
 
         if(currentYear !== item.year) {
 
-            if(sortBtnState == 'toTop'  && monthCount == 3) {
+            if(sortBtnState == 'toTop'  && monthCount == 12) {
                 cardsWrap.appendChild(cardsShowMoreBtn)
                 break
-            } else if(sortBtnState == 'toBottom') {
-                if(!hasMonthNow && monthCount == 3) {
-                    cardsWrap.appendChild(cardsShowMoreBtn)
-                    break
-                } else if(parseInt(monthsNumbers[currentMonth.toLowerCase().trim()]) == monthNow) {
-                    cardsWrap.appendChild(cardsShowMoreBtn)
-                    break
-                }
             }
 
             currentYear = item.year
@@ -314,17 +299,9 @@ function renderCards(eventsData) {
 
         } else if(currentMonth.toLowerCase() !== item.month.toLowerCase()) {
 
-            if(sortBtnState == 'toTop'  && monthCount == 3) {
+            if(sortBtnState == 'toTop'  && monthCount == 12) {
                 cardsWrap.appendChild(cardsShowMoreBtn)
                 break
-            } else if(sortBtnState == 'toBottom') {
-                if(!hasMonthNow && monthCount == 3) {
-                    cardsWrap.appendChild(cardsShowMoreBtn)
-                    break
-                } else if(parseInt(monthsNumbers[currentMonth.toLowerCase().trim()]) == monthNow) {
-                    cardsWrap.appendChild(cardsShowMoreBtn)
-                    break
-                }
             }
 
             currentMonth = item.month
@@ -380,7 +357,7 @@ function renderCards(eventsData) {
         
                 if(currentYear !== item.year) {
         
-                    if(monthCount == 3) {
+                    if(monthCount == 12) {
                         cardsWrap.appendChild(cardsShowMoreBtn)
                         break
                     }
@@ -406,7 +383,7 @@ function renderCards(eventsData) {
         
                 } else if(currentMonth.toLowerCase() !== item.month.toLowerCase()) {
         
-                    if(monthCount == 3) {
+                    if(monthCount == 12) {
                         cardsWrap.appendChild(cardsShowMoreBtn)
                         break
                     }
@@ -505,13 +482,6 @@ function renderCaledar(eventsData) {
     calendarShowMoreBtn.innerHTML = showMoreBtnTemp;
     calendarShowMoreBtn.addEventListener('click', calendarShowMore)
 
-    //определяем текущий месяц
-    const date = new Date();
-    const monthNow = date.getMonth() + 1;
-
-    // проверяем есть ли текущий месяц в выборке
-    const hasMonthNow = eventsData.find(item => monthsNumbers[item.month.toLowerCase().trim()] == monthNow) !== undefined ? true : false  
-
     // первый год
     let currentYear = eventsData[0].year;
     let yearBlock = document.createElement('div')
@@ -545,17 +515,9 @@ function renderCaledar(eventsData) {
 
         if(currentYear !== item.year) {
 
-            if(sortBtnState == 'toTop'  && monthCount == 3) {
+            if(monthCount == 12) {
                 calendarWrap.appendChild(calendarShowMoreBtn)
                 break
-            } else if(sortBtnState == 'toBottom') {
-                if(!hasMonthNow && monthCount == 3) {
-                    calendarWrap.appendChild(calendarShowMoreBtn)
-                    break
-                } else if(parseInt(monthsNumbers[currentMonth.toLowerCase().trim()]) == monthNow) {
-                    calendarWrap.appendChild(calendarShowMoreBtn)
-                    break
-                }
             }
 
             currentYear = item.year
@@ -580,17 +542,9 @@ function renderCaledar(eventsData) {
 
         } else if(currentMonth.toLowerCase() !== item.month.toLowerCase()) {
 
-            if(sortBtnState == 'toTop'  && monthCount == 3) {
+            if(sortBtnState == 'toTop'  && monthCount == 12) {
                 calendarWrap.appendChild(calendarShowMoreBtn)
                 break
-            } else if(sortBtnState == 'toBottom') {
-                if(!hasMonthNow && monthCount == 3) {
-                    calendarWrap.appendChild(calendarShowMoreBtn)
-                    break
-                } else if(parseInt(monthsNumbers[currentMonth.toLowerCase().trim()]) == monthNow) {
-                    calendarWrap.appendChild(calendarShowMoreBtn)
-                    break
-                }
             }
 
             currentMonth = item.month
@@ -653,7 +607,7 @@ function renderCaledar(eventsData) {
                 let item = eventsData[i]
         
                 if(currentYear !== item.year) {
-                    if(monthCount == 3) {
+                    if(monthCount == 12) {
                         calendarWrap.appendChild(calendarShowMoreBtn)
                         break
                     }
@@ -680,7 +634,7 @@ function renderCaledar(eventsData) {
         
                 } else if(currentMonth.toLowerCase() !== item.month.toLowerCase()) {
 
-                    if(monthCount == 3) {
+                    if(monthCount == 12) {
                         calendarWrap.appendChild(calendarShowMoreBtn)
                         break
                     }
