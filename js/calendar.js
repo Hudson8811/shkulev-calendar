@@ -1,4 +1,4 @@
-const dataPath = 'https://raw.githubusercontent.com/Hudson8811/shkulev/main/data/events-data.json' // сюда вписываем адрес JSON-файла. Пример файла data/events-data.json
+const dataPath = 'https://raw.githubusercontent.com/Hudson8811/shkulev-calendar/main/data/events-data.json' // сюда вписываем адрес JSON-файла. Пример файла data/events-data.json
 
 document.addEventListener("DOMContentLoaded", () => {
     if(window.innerWidth > 980) {
@@ -177,7 +177,7 @@ function render(dataPath) {
                                         ${targetEvent.department ? '<div class="event-modal__tag">' + targetEvent.department + '</div>' : ''}
                                         ${targetEvent.direction ? '<div class="event-modal__tag">' + targetEvent.direction + '</div>' : ''}
                                         ${targetEvent.number ? '<div class="event-modal__tag">' + targetEvent.number + '</div>' : ''}
-                                        ${targetEvent.sponsors.toLowerCase().trim() == "да" ? '<div class="event-modal__tag">Спонсоры</div>' : ''}
+                                        ${targetEvent.sponsors ? '<div class="event-modal__tag">' + targetEvent.sponsors + '</div>' : ''}
                                 </div>
                                     `   
 
@@ -263,7 +263,6 @@ function renderCards(eventsData) {
     yearBlock.appendChild(monthBlock)
     cardsWrap.appendChild(yearBlock)
 
-    const sortBtnState = document.querySelector('[data-js="btnSort"]').getAttribute('data-state')
     let monthCount = 1
     let itemsCount = 0
 
@@ -273,7 +272,7 @@ function renderCards(eventsData) {
 
         if(currentYear !== item.year) {
 
-            if(sortBtnState == 'toTop'  && monthCount == 12) {
+            if(monthCount == 12) {
                 cardsWrap.appendChild(cardsShowMoreBtn)
                 break
             }
@@ -299,7 +298,7 @@ function renderCards(eventsData) {
 
         } else if(currentMonth.toLowerCase() !== item.month.toLowerCase()) {
 
-            if(sortBtnState == 'toTop'  && monthCount == 12) {
+            if(monthCount == 12) {
                 cardsWrap.appendChild(cardsShowMoreBtn)
                 break
             }
@@ -335,7 +334,7 @@ function renderCards(eventsData) {
                                     ${item.department ? '<div class="cards-card__tag">' + item.department + '</div>' : ''}
                                     ${item.direction ? '<div class="cards-card__tag">' + item.direction + '</div>' : ''}
                                     ${item.number ? '<div class="cards-card__tag">' + item.number + '</div>' : ''}
-                                    ${item.sponsors.toLowerCase().trim() == "да" ? '<div class="cards-card__tag">Спонсоры</div>' : ''}
+                                    ${item.sponsors ? '<div class="cards-card__tag">' + item.sponsors + '</div>' : ''}
                                 </div>`
         
         monthTable.appendChild(eventCard)
@@ -419,7 +418,7 @@ function renderCards(eventsData) {
                                             ${item.department ? '<div class="cards-card__tag">' + item.department + '</div>' : ''}
                                             ${item.direction ? '<div class="cards-card__tag">' + item.direction + '</div>' : ''}
                                             ${item.number ? '<div class="cards-card__tag">' + item.number + '</div>' : ''}
-                                            ${item.sponsors.toLowerCase().trim() == "да" ? '<div class="cards-card__tag">Спонсоры</div>' : ''}
+                                            ${item.sponsors ? '<div class="cards-card__tag">' + item.sponsors + '</div>' : ''}
                                         </div>`
                 
                 monthTable.appendChild(eventCard)
@@ -542,7 +541,7 @@ function renderCaledar(eventsData) {
 
         } else if(currentMonth.toLowerCase() !== item.month.toLowerCase()) {
 
-            if(sortBtnState == 'toTop'  && monthCount == 12) {
+            if(monthCount == 12) {
                 calendarWrap.appendChild(calendarShowMoreBtn)
                 break
             }
