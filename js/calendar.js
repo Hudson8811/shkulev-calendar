@@ -178,6 +178,10 @@ function render(dataPath) {
                                         ${targetEvent.direction ? '<div class="event-modal__tag">' + targetEvent.direction + '</div>' : ''}
                                         ${targetEvent.number ? '<div class="event-modal__tag">' + targetEvent.number + '</div>' : ''}
                                         ${targetEvent.sponsors ? '<div class="event-modal__tag">' + targetEvent.sponsors + '</div>' : ''}
+                                        ${targetEvent.location ? '<div class="cards-card__tag">' + targetEvent.location + '</div>' : ''}
+                                        ${targetEvent.periodicity ? '<div class="cards-card__tag">' + targetEvent.periodicity + '</div>' : ''}
+                                        ${targetEvent.stage ? '<div class="cards-card__tag">' + targetEvent.stage + '</div>' : ''}
+                                        ${targetEvent.format ? '<div class="cards-card__tag">' + targetEvent.format + '</div>' : ''}
                                 </div>
                                     `   
 
@@ -335,6 +339,10 @@ function renderCards(eventsData) {
                                     ${item.direction ? '<div class="cards-card__tag">' + item.direction + '</div>' : ''}
                                     ${item.number ? '<div class="cards-card__tag">' + item.number + '</div>' : ''}
                                     ${item.sponsors ? '<div class="cards-card__tag">' + item.sponsors + '</div>' : ''}
+                                    ${item.location ? '<div class="cards-card__tag">' + item.location + '</div>' : ''}
+                                    ${item.periodicity ? '<div class="cards-card__tag">' + item.periodicity + '</div>' : ''}
+                                    ${item.stage ? '<div class="cards-card__tag">' + item.stage + '</div>' : ''}
+                                    ${item.format ? '<div class="cards-card__tag">' + item.format + '</div>' : ''}
                                 </div>`
         
         monthTable.appendChild(eventCard)

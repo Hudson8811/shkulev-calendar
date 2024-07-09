@@ -619,6 +619,7 @@ body {
 .cards-card__header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 24px;
 }
 .cards-card__date {
   font-size: 16px;
