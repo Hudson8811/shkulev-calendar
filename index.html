@@ -1012,6 +1012,711 @@
                                         </button>
                                     </div>
                                 </div>
+                                <div class="filter__item filter-param expanded" data-js="filterParam" data-id="location">
+                                    <div class="filter-param__header" data-js="filterParamHeader">
+                                        <div class="filter-param__title">Формат проведения <span data-js="filterParamCount"></span></div>
+                                        <div class="filter-param__count"></div>
+                                        <div class="filter-param__arrow">
+                                            <img src="img/calendar/chevron.svg" alt="arrow down">
+                                        </div>
+                                    </div>
+                                    <div class="filter-param__content" data-js="filterParamBody">
+                                        <label class="filter-field" for="offline">
+                                            <input type="checkbox" class="filter-field__input" id="offline" name="location"
+                                                value="Оффлайн">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Оффлайн</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="online">
+                                            <input type="checkbox" class="filter-field__input" id="online" name="location"
+                                                value="Онлайн">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Онлайн</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="hybrid">
+                                            <input type="checkbox" class="filter-field__input" id="hybrid" name="location"
+                                                value="Гибрид">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Гибрид</span>
+                                            </div>
+                                        </label>
+                                        <button class="filter-param__clear" data-js="filterFieldClear">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                    fill="currentColor" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                    fill="currentColor" />
+                                            </svg>
+                                            Очистить
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="filter__item filter-param expanded" data-js="filterParam" data-id="periodicity">
+                                    <div class="filter-param__header" data-js="filterParamHeader">
+                                        <div class="filter-param__title">Ежегодный <span data-js="filterParamCount"></span></div>
+                                        <div class="filter-param__count"></div>
+                                        <div class="filter-param__arrow">
+                                            <img src="img/calendar/chevron.svg" alt="arrow down">
+                                        </div>
+                                    </div>
+                                    <div class="filter-param__content" data-js="filterParamBody">
+                                        <label class="filter-field" for="annual">
+                                            <input type="checkbox" class="filter-field__input" id="annual" name="periodicity"
+                                                value="Ежегодный">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Ежегодный</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="notAnnual">
+                                            <input type="checkbox" class="filter-field__input" id="notAnnual" name="periodicity"
+                                                value="Не ежегодный">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Не ежегодный</span>
+                                            </div>
+                                        </label>
+                                        <button class="filter-param__clear" data-js="filterFieldClear">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                    fill="currentColor" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                    fill="currentColor" />
+                                            </svg>
+                                            Очистить
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="filter__item filter-param expanded" data-js="filterParam" data-id="stage">
+                                    <div class="filter-param__header" data-js="filterParamHeader">
+                                        <div class="filter-param__title">Стадия реализации <span data-js="filterParamCount"></span></div>
+                                        <div class="filter-param__count"></div>
+                                        <div class="filter-param__arrow">
+                                            <img src="img/calendar/chevron.svg" alt="arrow down">
+                                        </div>
+                                    </div>
+                                    <div class="filter-param__content" data-js="filterParamBody">
+                                        <label class="filter-field" for="notTakePlace">
+                                            <input type="checkbox" class="filter-field__input" id="notTakePlace" name="stage"
+                                                value="Не состоялась">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Не состоялась</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="takePlace">
+                                            <input type="checkbox" class="filter-field__input" id="takePlace" name="stage"
+                                                value="Состоялась">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Состоялась</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="implementation">
+                                            <input type="checkbox" class="filter-field__input" id="implementation" name="stage"
+                                                value="В реализаци">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">В реализаци</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="preparation">
+                                            <input type="checkbox" class="filter-field__input" id="preparation" name="stage"
+                                                value="Подготовка">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Подготовка</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="identification">
+                                            <input type="checkbox" class="filter-field__input" id="identification" name="stage"
+                                                value="Выявление">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Выявление</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="сlosing">
+                                            <input type="checkbox" class="filter-field__input" id="сlosing" name="stage"
+                                                value="Закрытие">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Закрытие</span>
+                                            </div>
+                                        </label>
+                                        <button class="filter-param__clear" data-js="filterFieldClear">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                    fill="currentColor" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                    fill="currentColor" />
+                                            </svg>
+                                            Очистить
+                                        </button>
+                                    </div>
+                                </div> 
+                                <div class="filter__item filter-param expanded" data-js="filterParam" data-id="format">
+                                    <div class="filter-param__header" data-js="filterParamHeader">
+                                        <div class="filter-param__title">Формат проекта <span
+                                                data-js="filterParamCount"></span></div>
+                                        <div class="filter-param__count"></div>
+                                        <div class="filter-param__arrow">
+                                            <img src="img/calendar/chevron.svg" alt="arrow down">
+                                        </div>
+                                    </div>
+                                    <div class="filter-param__content" data-js="filterParamBody">
+                                        <label class="filter-field" for="businessBreakfast">
+                                            <input type="checkbox" class="filter-field__input" id="businessBreakfast" name="format"
+                                                value="Бизнес-завтрак">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Бизнес-завтрак</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="parties">
+                                            <input type="checkbox" class="filter-field__input" id="parties" name="format"
+                                                value="Вечеринки">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Вечеринки</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="galaDinner">
+                                            <input type="checkbox" class="filter-field__input" id="galaDinner" name="format"
+                                                value="Гала-ужин">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Гала-ужин</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="henParty">
+                                            <input type="checkbox" class="filter-field__input" id="henParty" name="format"
+                                                value="Девичник">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Девичник</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="budgetProtection">
+                                            <input type="checkbox" class="filter-field__input" id="budgetProtection" name="format"
+                                                value="Защита бюджета">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Защита бюджета</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="coverParty">
+                                            <input type="checkbox" class="filter-field__input" id="coverParty" name="format"
+                                                value="Кавер-вечеринка">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Кавер-вечеринка</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="filmScreening">
+                                            <input type="checkbox" class="filter-field__input" id="filmScreening" name="format"
+                                                value="Кинопоказ">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Кинопоказ</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="clientActivity">
+                                            <input type="checkbox" class="filter-field__input" id="clientActivity" name="format"
+                                                value="Клиентская активность">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Клиентская активность</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="conference">
+                                            <input type="checkbox" class="filter-field__input" id="conference" name="format"
+                                                value="Конференция">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Конференция</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="corporateEvent">
+                                            <input type="checkbox" class="filter-field__input" id="corporateEvent" name="format"
+                                                value="Корпоративное мероприятие">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Корпоративное мероприятие</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="cruise">
+                                            <input type="checkbox" class="filter-field__input" id="cruise" name="format"
+                                                value="Круиз">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Круиз</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="lecture">
+                                            <input type="checkbox" class="filter-field__input" id="lecture" name="format"
+                                                value="Лекция">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Лекция</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="meditation">
+                                            <input type="checkbox" class="filter-field__input" id="meditation" name="format"
+                                                value="Медитация">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Медитация</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="partnerEvent">
+                                            <input type="checkbox" class="filter-field__input" id="partnerEvent" name="format"
+                                                value="Партнерское мероприятие">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Партнерское мероприятие</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="presentation">
+                                            <input type="checkbox" class="filter-field__input" id="presentation" name="format"
+                                                value="Презентация">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Презентация</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="prize">
+                                            <input type="checkbox" class="filter-field__input" id="prize" name="format"
+                                                value="Премия">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Премия</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="retreat">
+                                            <input type="checkbox" class="filter-field__input" id="retreat" name="format"
+                                                value="Ретрит">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Ретрит</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="roadshow">
+                                            <input type="checkbox" class="filter-field__input" id="roadshow" name="format"
+                                                value="Роудшоу">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Роудшоу</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="specialScreening">
+                                            <input type="checkbox" class="filter-field__input" id="specialScreening" name="format"
+                                                value="Спецпоказ">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Спецпоказ</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="strategy">
+                                            <input type="checkbox" class="filter-field__input" id="strategy" name="format"
+                                                value="Стратегия">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Стратегия</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="themeParty">
+                                            <input type="checkbox" class="filter-field__input" id="themeParty" name="format"
+                                                value="Тематическая вечеринка">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Тематическая вечеринка</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="festival">
+                                            <input type="checkbox" class="filter-field__input" id="festival" name="format"
+                                                value="Фестиваль">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Фестиваль</span>
+                                            </div>
+                                        </label>
+                                        <label class="filter-field" for="excursion">
+                                            <input type="checkbox" class="filter-field__input" id="excursion" name="format"
+                                                value="Экскурсия">
+                                            <div class="filter-field__view">
+                                                <span class="filter-field__icon" data-js="filterFieldDelete">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                            fill="currentColor" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                </span>
+                                                <span class="filter-field__name">Экскурсия</span>
+                                            </div>
+                                        </label>
+                                        <button class="filter-param__clear" data-js="filterFieldClear">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M12.4714 3.52858C12.7318 3.78892 12.7318 4.21103 12.4714 4.47138L4.47145 12.4714C4.2111 12.7317 3.78899 12.7317 3.52864 12.4714C3.26829 12.211 3.26829 11.7889 3.52864 11.5286L11.5286 3.52858C11.789 3.26823 12.2111 3.26823 12.4714 3.52858Z"
+                                                    fill="currentColor" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M3.52864 3.52858C3.78899 3.26823 4.2111 3.26823 4.47145 3.52858L12.4714 11.5286C12.7318 11.7889 12.7318 12.211 12.4714 12.4714C12.2111 12.7317 11.789 12.7317 11.5286 12.4714L3.52864 4.47138C3.26829 4.21103 3.26829 3.78892 3.52864 3.52858Z"
+                                                    fill="currentColor" />
+                                            </svg>
+                                            Очистить
+                                        </button>
+                                    </div>
+                                </div>                
                             </div>
                         </form>
                     </div>

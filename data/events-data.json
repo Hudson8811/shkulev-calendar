@@ -11,7 +11,11 @@
         "department": "general",
         "direction": "Бизнес-форматы",
         "number": "100-500",
-        "sponsors": "Без спонсоров"
+        "sponsors": "Без спонсоров",
+        "location": "Оффлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Бизнес-завтрак"
     },
     {
         "id": "",
@@ -25,7 +29,11 @@
         "department": "digital",
         "direction": "имиджевая",
         "number": "до 50",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Онлайн",
+        "periodicity": "Не ежегодный",
+        "stage": "Состоялась",
+        "format": "Вечеринки"
     },
     {
         "id": "",
@@ -39,7 +47,11 @@
         "department": "print",
         "direction": "Развлекательная",
         "number": "до 100",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Гибрид",
+        "periodicity": "Ежегодный",
+        "stage": "В реализаци",
+        "format": "Гала-ужин"
     },
     {
         "id": "",
@@ -53,7 +65,11 @@
         "department": "general",
         "direction": "Бизнес-форматы",
         "number": "100-500",
-        "sponsors": "Без спонсоров"
+        "sponsors": "Без спонсоров",
+        "location": "Онлайн",
+        "periodicity": "Не ежегодный",
+        "stage": "Подготовка",
+        "format": "Девичник"
     },
     {
         "id": "",
@@ -67,7 +83,11 @@
         "department": "digital",
         "direction": "имиджевая",
         "number": "до 50",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Оффлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Выявление",
+        "format": "Защита бюджета"
     },
     {
         "id": "",
@@ -81,7 +101,11 @@
         "department": "print",
         "direction": "Развлекательная",
         "number": "до 100",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Онлайн",
+        "periodicity": "Не ежегодный",
+        "stage": "Закрытие",
+        "format": "Кавер-вечеринка"
     },
     {
         "id": "",
@@ -95,7 +119,11 @@
         "department": "general",
         "direction": "Бизнес-форматы",
         "number": "100-500",
-        "sponsors": "Без спонсоров"
+        "sponsors": "Без спонсоров",
+        "location": "Оффлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Кинопоказ"
     },
     {
         "id": "",
@@ -109,7 +137,11 @@
         "department": "digital",
         "direction": "имиджевая",
         "number": "до 50",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Онлайн",
+        "periodicity": "Не ежегодный",
+        "stage": "Состоялась",
+        "format": "Клиентская активность"
     },
     {
         "id": "",
@@ -123,7 +155,11 @@
         "department": "print",
         "direction": "Развлекательная",
         "number": "до 100",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Оффлайн",
+        "periodicity": "Ежегодный",
+        "stage": "В реализаци",
+        "format": "Конференция"
     },
     {
         "id": "",
@@ -137,7 +173,11 @@
         "department": "general",
         "direction": "Бизнес-форматы",
         "number": "100-500",
-        "sponsors": "Без спонсоров"
+        "sponsors": "Без спонсоров",
+        "location": "Онлайн",
+        "periodicity": "Не ежегодный",
+        "stage": "Подготовка",
+        "format": "Корпоративное мероприятие"
     },
     {
         "id": "",
@@ -151,7 +191,11 @@
         "department": "digital",
         "direction": "имиджевая",
         "number": "до 50",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Оффлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Выявление",
+        "format": "Круиз"
     },
     {
         "id": "",
@@ -165,7 +209,11 @@
         "department": "print",
         "direction": "Развлекательная",
         "number": "до 100",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Онлайн",
+        "periodicity": "Не ежегодный",
+        "stage": "Закрытие",
+        "format": "Лекция"
     },
     {
         "id": "",
@@ -179,7 +227,11 @@
         "department": "print",
         "direction": "Развлекательная",
         "number": "до 100",
-        "sponsors": "Без спонсоров"
+        "sponsors": "Без спонсоров",
+        "location": "Оффлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Медитация"
     },
     {
         "id": "",
@@ -193,7 +245,11 @@
         "department": "general",
         "direction": "Бизнес-форматы",
         "number": "100-500",
-        "sponsors": "Без спонсоров"
+        "sponsors": "Без спонсоров",
+        "location": "Онлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Состоялась",
+        "format": "Партнерское мероприятие"
     },
     {
         "id": "",
@@ -207,7 +263,11 @@
         "department": "digital",
         "direction": "имиджевая",
         "number": "до 50",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Оффлайн",
+        "periodicity": "Ежегодный",
+        "stage": "В реализаци",
+        "format": "Презентация"
     },
     {
         "id": "",
@@ -221,7 +281,11 @@
         "department": "print",
         "direction": "Развлекательная",
         "number": "до 100",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Онлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Подготовка",
+        "format": "Премия"
     },
     {
         "id": "",
@@ -235,7 +299,11 @@
         "department": "general",
         "direction": "Бизнес-форматы",
         "number": "100-500",
-        "sponsors": "Без спонсоров"
+        "sponsors": "Без спонсоров",
+        "location": "Оффлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Выявление",
+        "format": "Ретрит"
     },
     {
         "id": "",
@@ -249,7 +317,11 @@
         "department": "digital",
         "direction": "имиджевая",
         "number": "до 50",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Онлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Закрытие",
+        "format": "Роудшоу"
     },
     {
         "id": "",
@@ -263,7 +335,11 @@
         "department": "print",
         "direction": "Развлекательная",
         "number": "до 100",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Оффлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Спецпоказ"
     },
     {
         "id": "",
@@ -277,7 +353,11 @@
         "department": "general",
         "direction": "Бизнес-форматы",
         "number": "100-500",
-        "sponsors": "Без спонсоров"
+        "sponsors": "Без спонсоров",
+        "location": "Онлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Состоялась",
+        "format": "Стратегия"
     },
     {
         "id": "",
@@ -291,7 +371,11 @@
         "department": "digital",
         "direction": "имиджевая",
         "number": "до 50",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Оффлайн",
+        "periodicity": "Ежегодный",
+        "stage": "В реализаци",
+        "format": "Тематическая вечеринка"
     },
     {
         "id": "",
@@ -305,7 +389,11 @@
         "department": "print",
         "direction": "Развлекательная",
         "number": "до 100",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Онлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Подготовка",
+        "format": "Фестиваль"
     },
     {
         "id": "",
@@ -319,7 +407,11 @@
         "department": "print",
         "direction": "Развлекательная",
         "number": "до 100",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Оффлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Выявление",
+        "format": "Экскурсия"
     },
     {
         "id": "",
@@ -333,7 +425,11 @@
         "department": "digital",
         "direction": "имиджевая",
         "number": "до 50",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Гибрид",
+        "periodicity": "Ежегодный",
+        "stage": "Закрытие",
+        "format": "Бизнес-завтрак"
     },
     {
         "id": "",
@@ -347,7 +443,11 @@
         "department": "print",
         "direction": "Развлекательная",
         "number": "до 100",
-        "sponsors": "Без спонсоров"
+        "sponsors": "Без спонсоров",
+        "location": "Онлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Бизнес-завтрак"
     },
     {
         "id": "",
@@ -361,7 +461,11 @@
         "department": "print",
         "direction": "Развлекательная",
         "number": "до 100",
-        "sponsors": "Без спонсоров"
+        "sponsors": "Без спонсоров",
+        "location": "Оффлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Бизнес-завтрак"
     },
     {
         "id": "",
@@ -375,7 +479,11 @@
         "department": "print",
         "direction": "Развлекательная",
         "number": "до 100",
-        "sponsors": "Без спонсоров"
+        "sponsors": "Без спонсоров",
+        "location": "Онлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Бизнес-завтрак"
     },
     {
         "id": "",
@@ -389,7 +497,11 @@
         "department": "general",
         "direction": "Развлекательная",
         "number": "100-500",
-        "sponsors": "Без спонсоров"
+        "sponsors": "Без спонсоров",
+        "location": "Оффлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Бизнес-завтрак"
     },
     {
         "id": "",
@@ -403,7 +515,11 @@
         "department": "general",
         "direction": "Развлекательная",
         "number": "500-1000",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Гибрид",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Бизнес-завтрак"
     },
     {
         "id": "",
@@ -417,7 +533,11 @@
         "department": "general",
         "direction": "Развлекательная",
         "number": "100-500",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Онлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Бизнес-завтрак"
     },
     {
         "id": "",
@@ -431,7 +551,11 @@
         "department": "general",
         "direction": "Развлекательная",
         "number": "100-500",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Оффлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Бизнес-завтрак"
     },
     {
         "id": "",
@@ -445,7 +569,11 @@
         "department": "general",
         "direction": "Развлекательная",
         "number": "100-500",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Онлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Бизнес-завтрак"
     },
     {
         "id": "",
@@ -459,7 +587,11 @@
         "department": "print",
         "direction": "Развлекательная",
         "number": "до 100",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Оффлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Бизнес-завтрак"
     },
     {
         "id": "",
@@ -473,7 +605,11 @@
         "department": "digital",
         "direction": "имиджевая",
         "number": "до 50",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Гибрид",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Бизнес-завтрак"
     },
     {
         "id": "",
@@ -487,7 +623,11 @@
         "department": "digital",
         "direction": "имиджевая",
         "number": "до 50",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Онлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Бизнес-завтрак"
     },
     {
         "id": "",
@@ -501,7 +641,11 @@
         "department": "print",
         "direction": "Познав.-образов-льная",
         "number": "свыше 1000",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Оффлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Бизнес-завтрак"
     },
     {
         "id": "",
@@ -515,7 +659,11 @@
         "department": "digital",
         "direction": "имиджевая",
         "number": "до 50",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Оффлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Бизнес-завтрак"
     },
     {
         "id": "",
@@ -529,7 +677,11 @@
         "department": "digital",
         "direction": "имиджевая",
         "number": "до 50",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Онлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Бизнес-завтрак"
     },
     {
         "id": "",
@@ -543,7 +695,11 @@
         "department": "print",
         "direction": "Познав.-образов-льная",
         "number": "до 100",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Оффлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Бизнес-завтрак"
     },
     {
         "id": "",
@@ -557,7 +713,11 @@
         "department": "digital",
         "direction": "имиджевая",
         "number": "до 50",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Оффлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Бизнес-завтрак"
     },
     {
         "id": "",
@@ -571,7 +731,11 @@
         "department": "digital",
         "direction": "имиджевая",
         "number": "до 50",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Онлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Бизнес-завтрак"
     },
     {
         "id": "",
@@ -585,7 +749,11 @@
         "department": "digital",
         "direction": "имиджевая",
         "number": "до 50",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Оффлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Бизнес-завтрак"
     },
     {
         "id": "",
@@ -599,7 +767,11 @@
         "department": "digital",
         "direction": "имиджевая",
         "number": "до 50",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Оффлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Бизнес-завтрак"
     },
     {
         "id": "",
@@ -613,7 +785,11 @@
         "department": "Print/Digital",
         "direction": "имиджевая",
         "number": "до 50",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Онлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Бизнес-завтрак"
     },
     {
         "id": "",
@@ -627,7 +803,11 @@
         "department": "Print/Digital",
         "direction": "имиджевая",
         "number": "до 50",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Оффлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Бизнес-завтрак"
     },
     {
         "id": "",
@@ -641,7 +821,11 @@
         "department": "Print/Digital",
         "direction": "имиджевая",
         "number": "до 50",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Гибрид",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Бизнес-завтрак"
     },
     {
         "id": "",
@@ -655,6 +839,10 @@
         "department": "print",
         "direction": "Развлекательная",
         "number": "до 100",
-        "sponsors": "Со спонсорами"
+        "sponsors": "Со спонсорами",
+        "location": "Онлайн",
+        "periodicity": "Ежегодный",
+        "stage": "Не состоялась",
+        "format": "Бизнес-завтрак"
     }
 ]
